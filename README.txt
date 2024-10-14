@@ -17,12 +17,6 @@ Compile and Run Custom Test: If desired, compile the custom test file test_assig
 Solution Overview
 The buffer manager implements various page replacement strategies (FIFO, LRU, LFU, CLOCK) to optimize memory usage while ensuring proper memory management. It is designed to be thread-safe and memory-efficient.
 
-Team Contributions
-Manju: Tested and Developed Buffer Pool Functions and Page Replacement algorithms.
-Rupa: Implemented Statistics Functions.
-Vanaja: Developed Page Management functions (pinPage and unpinPage).
-Mohit: Implemented makeDirty and forcePage.
-
 Thread Safety
 The Buffer Pool functions are designed to be thread-safe, ensuring that multiple threads can access the buffer pool concurrently without encountering data corruption or race conditions.
 
